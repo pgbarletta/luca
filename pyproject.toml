@@ -5,7 +5,7 @@ description = ""
 authors = ["pgbarletta <pbarletta@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = ">=3.8,<3.11"
 scipy = "^1.7"
 attrs = "^21.4.0"
 pdb2pqr = "^3.5.2"
