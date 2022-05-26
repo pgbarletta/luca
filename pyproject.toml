@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "luca"
+version = "0.1.0"
+description = ""
+authors = ["pgbarletta <pbarletta@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+attrs = "^21.4.0"
+pdb2pqr = "^3.5.2"
+GromacsWrapper = "^0.8.2"
+toml = "^0.10.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+black = "^22.3.0"
+
+[tool.pytest]
+addopts = "--ignore=setup.py"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
