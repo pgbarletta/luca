@@ -7,7 +7,7 @@ luca
         :target: https://pypi.python.org/pypi/luca
 
 .. image:: https://img.shields.io/travis/pgbarletta/luca.svg
-        :target: https://travis-ci.com/pgbarletta/luca
+        :target: https://app.travis-ci.com/github/pgbarletta/luca/builds
 
 .. image:: https://readthedocs.org/projects/luca/badge/?version=latest
         :target: https://luca.readthedocs.io/en/latest/?version=latest
