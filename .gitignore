@@ -3,3 +3,5 @@ __*
 !.gitignore
 !.travis.yml
 poetry.lock
+*ipynb
+aux
