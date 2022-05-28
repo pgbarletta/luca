@@ -3,9 +3,7 @@
 """Tests for `luqui` package."""
 
 import pytest
-
-
-from luqui import luqui
+import luqui
 
 
 @pytest.fixture
