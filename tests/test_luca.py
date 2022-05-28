@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
-"""Tests for `luca` package."""
+"""Tests for `luqui` package."""
 
 import pytest
 
 
-from luca import luca
+from luqui import luqui
 
 
 @pytest.fixture
