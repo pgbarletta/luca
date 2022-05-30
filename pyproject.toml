@@ -11,6 +11,9 @@ attrs = "^21.4.0"
 pdb2pqr = "^3.5.0"
 GromacsWrapper = "^0.8.1"
 toml = "^0.10.1"
+flake8-bugbear = "^22.4.25"
+wemake-python-styleguide = "^0.16.1"
+Sphinx = "^4.5.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.1.2"
