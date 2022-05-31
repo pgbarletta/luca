@@ -1,0 +1,28 @@
+title = "luca config"
+
+[path]
+folder = "1ppg_design"
+src_route = "/home/PARCE-1"
+gmxrc_path = "/usr/local/gromacs/bin/GMXRC"
+md_route = "/home/PARCE-1/design_input/peptide_protein"
+md_original = "peptide_example"
+filename = "1ppg_AAPAAAPP"
+
+[main]
+mode = "start"
+
+[mutation]
+peptide_reference = ["A", "A", "P", "A", "A", "A", "P", "P"]
+chain = 'B'
+num_mutations = 30
+try_mutations = 10
+residues_mod = [1,2,3,4,5,6,7,8]
+mutation_method = "faspr"
+
+[md]
+sim_time = 5
+
+[scoring]
+half_flag = 1
+score_list = ["bach", "pisa", "zrank", "irad", "bmf-bluues", "firedock"]
+consensus_threshold = 3
